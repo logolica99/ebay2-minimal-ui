@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+    
+   text-align: center;
+    height: 150px;
+    background: linear-gradient(to right, #00d2ff,#928DAB);
+}
+
+.nav-logo{
+    padding-top: 20px;
+    color:white;
+    
+
+}
+.nav-search{
+    margin-top: 20px;
+
+
+}
+.nav-search input{
+    height: 40px;
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    padding:10px 20px;
+    font-size: 20px;
+    
+}
+
+
+.nav-search button{
+    border: none;phone eo responsive ase
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.wrapper{
+    width:70%;
+    margin:auto;
+    margin-top: 20px;
+ 
+}
+
+@media(max-width:900px){
+    .wrapper{
+        width:90%;
+    }
+}
+
+.category label{
+    font-weight: bold;
+}
+
+.category select{
+    padding:10px 10px;
+    background-color: rgb(116, 217, 235);
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    border: none;
+}
+
+.items-wrapper{
+    margin-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+/*    
+    border: 1px solid rgb(168, 160, 160); */
+    padding:0px 20px ;
+}
+
+.item-container{
+
+    width:400px;
+    margin-top: 70px;
+    border: 1px solid rgb(138, 116, 163);
+    border-radius: 20px;
+    text-align: center;
+    padding:20px;
+    cursor: pointer;
+
+}
+.item-container img{
+    width:200px;
+    margin-top: 20px;
+}
+.item-title{
+    margin: 20px 0px;
+}
+.item-price{
+    margin:20px 0px;
+}
