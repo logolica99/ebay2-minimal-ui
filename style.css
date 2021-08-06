@@ -81,6 +81,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
     
 /*    
     border: 1px solid rgb(168, 160, 160); */
@@ -91,7 +92,8 @@ nav{
 
     width:400px;
     margin-top: 70px;
-    border: 1px solid rgb(138, 116, 163);
+    /* border: 1px solid rgb(138, 116, 163); */
+    background-color: rgb(211, 221, 250);
     border-radius: 20px;
     text-align: center;
     padding:20px;
